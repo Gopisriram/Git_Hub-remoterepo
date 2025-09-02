@@ -5,3 +5,6 @@
 #This is a test run
 name: hello-world
 echo "Hello World!"
+- task: ManualValidation@1
+  inputs:
+    notifyUsers: 'gopi krishna'
