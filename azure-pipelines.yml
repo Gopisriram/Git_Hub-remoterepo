@@ -2,7 +2,9 @@
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
-
 #This is a test run
-echo "hello"
-  - 
+name: hello-world
+echo "Hello World!"
+- task: ManualValidation@1
+  inputs:
+    notifyUsers: 'gopi krishna'
